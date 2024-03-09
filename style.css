@@ -1,0 +1,270 @@
+* {
+        padding: 0px;
+        margin: 0px;
+}
+
+.wall {
+        width: 100%;
+
+}
+
+body {
+        font-family: serif;
+        
+        
+}
+
+.main {
+        background-image: url(nature.jpg);
+        background-size: 100%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        display:block;
+
+}
+
+.nav {
+        width: 100%;
+        float: left;
+        background-color: #000000BA;
+       position: sticky;
+       top: 0px;
+}
+
+.nav ul {
+        float: left;
+
+}
+
+.nav li {
+        float: left;
+        margin: 0px 0px 0px 40px;
+        overflow: hidden;
+        text-decoration: none;
+        display: block;
+        font-size: 40px;
+
+}
+
+
+.cont img
+{
+        width: 80%;
+        height: 280px;
+        margin: 100px auto auto 100px;
+        box-shadow: 5px 5px 10px 0px #000000;
+        
+}
+
+a {
+        text-decoration: none;
+
+}
+
+a:active {
+        color: #FF0077;
+
+}
+
+a:link {
+        color: #BBFF00;
+}
+
+a:visited {
+        color:#FFFFFF;
+}
+
+a:hover {
+        color: #FF0077;
+        
+}
+.hotel
+{
+        width: 100%;
+        display:block ;
+}
+.hmain
+{
+        width: 100%;
+        overflow: hidden;
+        display: block ;
+}
+.hot
+{
+        margin: 7% 0% 0% 6% ;
+        
+}
+.hot img
+{
+        width: 100%;
+        height: 100%;
+        
+}
+.hot fieldset
+{
+        width: 90%;
+        margin: 20px 0px 0px 0px ;
+       box-shadow: 5px 5px 10px 0px #000000DB;
+       border-radius: 10px;
+       padding: 15px;
+       
+}
+
+.nav input
+{
+        border: 1px solid #FFFFFF;
+        background-color: #8B8B8BA3;
+        height: 45px;
+        width: 500px;
+       border-radius: 5px;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#sear
+{
+        margin: -5px 0px 5px 80px;
+}
+.mar img
+{
+        width: 100%;
+        height: 50%;
+}
+.gd
+{
+        width: 90%;
+        overflow: hidden;
+      
+}
+
+{
+        
+}
+.gdi img
+{
+        margin: 1% -50% 0% 25% ;
+        
+}
+.hb
+{
+        
+        color: #F702B4;
+        font-size: 50px;
+        border: 2px solid seagreen;
+        padding: 10px 90px 10px 90px;
+        margin: 500px 0px 0px 0px;
+        background-image: linear-gradient(#01B6FF85,#01FFA285,#01FF4C85);
+        border-radius: 10px;
+        font-family: serif;
+}
+.hb input
+{
+        height: 60px;
+        border: 2px solid slateblue;
+        font-size:30px;
+        margin: 0px 0px 0px 60px;
+        color: #021C62;
+        text-align: center;
+        border-radius: 10px;
+        font-family: serif;
+      
+}
+.hb button
+{
+       text-align: center;
+       border: solid 2px slateblue;
+       font-size: 50px;
+       background-color:#FBFF00;
+       color: #04059D;
+       margin: 10px 0px 0px 20px;
+       border-radius: 10px;
+      font-family: serif;
+}
+.hb td
+{
+      
+}
+.hb caption
+{
+        border: 2px solid #071E87;
+        color: #02008C;
+        background-size: #FFE400;
+        text-align: center;
+        background-color: #FFF803;
+        
+}
+.gdp
+{
+        
+        /*border: 2px solid #242424;*/
+        font-size: 30px;
+        width: 60%;
+        margin: -10% 0% 1% 25%;
+        color: #FFFFFF;
+        font-size: 30px;
+        font-family: serif;
+}
+.info {
+
+
+        font-size: 35px;
+        color: #F6FF00;
+        border: 2px #00FFDA solid;
+        width: 700px;
+        
+        min-height: 800px;
+        max-height: 1200px;
+        margin: 150px auto auto auto;
+        background-image: linear-gradient(#0011FF4F, #FF00A04F);
+        font-family: serif;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 2px 2px 10px 0px #727272;
+
+}
+
+.info input {
+
+        border: 1px solid #FF0095;
+        font-family: serif;
+        color: #640294;
+        border-radius: 5px;
+        height: 50px;
+        font-size: 30px;
+        color: #FF00EA;
+      margin: 10px 0px 0px 0px;
+        text-align: center;
+        
+
+}
+.info button {
+
+        color: #BEFF00;
+        background-color: #7400FF;
+        font-size: 50px;
+        font-family: serif;
+        height: 70px;
+        width: 200px;
+        margin: 0px 25px 0px 25px;
+        border-radius: 10px;
+        border: 2px solid #BEFF00;
+
+}
+
+.bdy {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-image: url(/tajtav.jpeg);
+}
+textarea
+{
+        border: 2px solid deeppink; 
+        margin: 40px 0px 0px 0px;
+        font-size: 30px;
+        font-family:serif;
+        color: #12008E;
+        border-radius: 10px;
+}
